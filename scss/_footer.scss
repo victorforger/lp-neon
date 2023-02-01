@@ -2,24 +2,29 @@ footer {
     background-color: $brand-blue;
     padding-top: 4.9rem;
     padding-bottom: 3.8rem;
+
     .top {
         @include flex(row, center, space-between);
         border-bottom: 1px solid rgba(73, 196, 253, 0.2);
         padding-bottom: 4.8rem;
         margin-bottom: 5.7rem;
+
         .share {
             display: flex;
             align-items: center;
+
             span {
                 font-size: 1.4rem;
                 line-height: 125%;
                 color: #ffffff;
                 opacity: 0.7;
             }
+
             ul {
                 display: flex;
                 align-items: center;
                 margin-left: 3rem;
+
                 li {
                     &:not(:last-child) {
                         margin-right: 3rem;
@@ -28,11 +33,13 @@ footer {
             }
         }
     }
+
     .main {
         @include flex(row, flex-start, space-between);
         border-bottom: 1px solid rgba(73, 196, 253, 0.2);
         padding-bottom: 6.2rem;
         margin-bottom: 3.9rem;
+
         nav {
             @include flex(row, flex-start, space-between);
             width: 100%;
@@ -47,11 +54,13 @@ footer {
                     display: inline-block;
                     margin-bottom: 2.5rem;
                 }
+
                 ul {
                     li {
                         &:not(:last-child) {
                             margin-bottom: 2.9rem;
                         }
+
                         a {
                             font-size: 1.4rem;
                             line-height: 1.7rem;
@@ -62,9 +71,11 @@ footer {
                     }
                 }
             }
+
             .btns {
                 width: 100%;
                 max-width: 28rem;
+
                 button {
                     width: 100%;
                     height: 7.6rem;
@@ -96,9 +107,11 @@ footer {
                 }
             }
         }
+
         .btns {
             width: 100%;
             max-width: 28rem;
+
             button {
                 width: 100%;
                 height: 7.6rem;
@@ -130,12 +143,15 @@ footer {
             }
         }
     }
+
     .msg {
         display: flex;
         align-items: flex-start;
+
         .icon {
             font-size: 1.8rem;
         }
+
         p {
             width: 100%;
             max-width: 66rem;
