@@ -27,4 +27,8 @@
         color: $gray-400;
         max-width: 30.1rem;
     }
+
+    @include responsive(480px) {
+        height: 25.3rem;
+    }
 }
